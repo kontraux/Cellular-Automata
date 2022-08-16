@@ -2,6 +2,9 @@
  Simple cellular automata in Lua
 
 Example:
+
+```
+
 local grid = ca.new_grid(20, 20)
 ca.new_noise(grid, 0.4, true)
 grid = ca.simulation_step(grid, 5, 4)
@@ -32,3 +35,5 @@ end
 1       1       1       0       0       0       1       1       1       1       0       0       0       0       0       0       0       1       1       1
 1       1       1       1       1       1       1       1       1       1       1       1       0       1       1       1       1       1       1       1
 1       1       1       1       1       1       0       1       1       1       1       1       0       1       1       1       0       1       1       1
+
+```
