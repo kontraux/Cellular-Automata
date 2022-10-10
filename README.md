@@ -1,5 +1,5 @@
 # Cellular-Automata
- Simple cellular automata in Lua
+Cellular automata in Lua
 
 Example:
 
